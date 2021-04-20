@@ -1,4 +1,4 @@
-# Test automation for MBIE Toilet Calculator
+# Test Automation for MBIE Toilet Calculator
 
 This Automation Project is developed using TDD (Test Driven Development), Java as programing language, Maven as build automation tool and open source libraries like Selenium, TestNG, PdfComparator, ExtentReport etc..
 
