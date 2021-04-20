@@ -20,7 +20,7 @@ Feature: In a Building/	Open Space with known people count
        5.   Single sex toilet facilities with urinals for males, plus accessible unisex
        5.   calculation of showers
     
-  Scenario: Calculate Toilet Facility Result for Museum with capacity of 100 people
+  Scenario: Generate Toilet Facility Result for Museum with capacity of 100 people using Toilet Facility CalCulator
       Given Bob The Builder is building toilet facility for Museum with capacity of 100 people
       And Bob wants to calculate Toilet Facility requirement using Toilet Facility Calculator
       When Bob open Toilet Facility Calculator
