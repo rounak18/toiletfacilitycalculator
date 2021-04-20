@@ -1,0 +1,24 @@
+*.settings
+target/
+test-output
+*.classpath
+*.project
+*.out
+
+#eclipse default gitignore - https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+.metadata
+bin/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+user.properties
+.settings/
+.loadpath
+
+# Eclipse Core
+.project
+
+# Locally stored "Eclipse launch configurations"
+*.launch

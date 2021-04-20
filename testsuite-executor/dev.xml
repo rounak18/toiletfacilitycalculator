@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MBIE Toilet Facility Calculator Test Automation Suite">
+	<listeners>
+		<listener
+			class-name="govt.mbie.calculator.util.listner.ExtentListener" />
+	</listeners>
+	<test name="MBIE Toilet Facility Calculator Test Automation Suite">
+		<packages>
+			<package name="govt.mbie.calculator.testcases"></package>
+		</packages>
+	</test>
+</suite>

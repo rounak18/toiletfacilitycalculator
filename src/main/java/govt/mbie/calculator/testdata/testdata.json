@@ -1,0 +1,16 @@
+{
+	"HospitalMeasurements": [
+		{
+			"diningArea": "100",
+			"interviewArea": "100",
+			"kitchenArea": "100",
+			"houseKeepingArea": "100",
+			"lobbieArea": "100",
+			"officeArea": "100",
+			"serviceFacilityArea": "100",
+			"receptionArea": "100",
+			"subordinatespaceArea": "100",
+			"numberOfBeds": "100"
+		}
+	]
+}
