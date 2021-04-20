@@ -10,6 +10,14 @@ Feature: In a Building/	Open Space with known people count
        4.   Option 4 - Single sex toilet facilities only, plus accessible unisex
        5.   Option 5 - Single sex toilet facilities with urinals for males, plus accessible unisex
     # Print and Save Result as pdf for calculated toilet facility in building
+    
+    Limitations of the calculator
+		#The calculator, on its own, will not produce a Building Code compliant solution as it does not cover:
+			1.  allocation and distribution of accessible toilet facilities
+			2. 	definition of, or the distribution of unisex toilet facilities
+			3.	space requirements for toilets or accessible layouts
+			4.  the 'floor area' options are extensive and allow for a number of different building configurations
+					calculation of showers.
       
   Scenario: Calculate Toilet Facility Result for Museum with capacity of 100 people
       Given Bob The Builder is building toilet facility for Museum with capacity of 100 people
