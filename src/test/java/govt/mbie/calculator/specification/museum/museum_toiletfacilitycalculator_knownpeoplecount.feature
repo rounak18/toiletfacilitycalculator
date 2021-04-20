@@ -12,7 +12,7 @@ Feature: In a Building/	Open Space with known people count
     # Print and Save Result as pdf for calculated toilet facility in building
 
     Limitations of the calculator:
-    # The calculator, on its own, will not produce a Building Code compliant solution as it does not cover:The calculator, on its own, will not produce a Building Code compliant solution as it does not cover
+    # The calculator, on its own, will not produce a Building Code compliant solution as it does not cover
        1.   allocation and distribution of accessible toilet facilities
        2.   definition of, or the distribution of unisex toilet facilities
        3.   space requirements for toilets or accessible layouts
