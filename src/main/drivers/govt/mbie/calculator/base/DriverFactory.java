@@ -52,7 +52,7 @@ public class DriverFactory {
 
 			proxyConfig = Config.getInstance().getProxyConfig();
 
-			System.setProperty("webdriver.gecko.driver", "Drivers//linuxdriver//geckodriver");
+			System.setProperty("webdriver.gecko.driver", "drivers//linuxdriver//geckodriver");
 
 			FirefoxOptions options = new FirefoxOptions();
 			FirefoxProfile profile = new FirefoxProfile();
@@ -73,7 +73,7 @@ public class DriverFactory {
 		}
 		if (browserName.toLowerCase().contains("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "Drivers//linuxdriver//chromedriver");
+			System.setProperty("webdriver.chrome.driver", "drivers//linuxdriver//chromedriver");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setHeadless(true);
 			driver = new ChromeDriver();
@@ -95,7 +95,7 @@ public class DriverFactory {
 
 		if (browserName.equalsIgnoreCase("firefox")) {
 
-			System.setProperty("webdriver.gecko.driver", "Drivers//windriver//geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "drivers//windriver//geckodriver.exe");
 
 			FirefoxOptions options = new FirefoxOptions();
 			FirefoxProfile profile = new FirefoxProfile();
@@ -118,7 +118,7 @@ public class DriverFactory {
 		}
 		if (browserName.toLowerCase().contains("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "Drivers//windriver//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "drivers//windriver//chromedriver.exe");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setHeadless(true);
 			driver = new ChromeDriver();
@@ -127,7 +127,7 @@ public class DriverFactory {
 		}
 		if (browserName.toLowerCase().contains("ie")) {
 
-			System.setProperty("webdriver.ie.driver", "Drivers//windriver//IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "drivers//windriver//IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 
 			return driver;
