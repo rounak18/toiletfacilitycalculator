@@ -18,9 +18,8 @@ Feature: In a Building/	Open Space with known people count
        3.   space requirements for toilets or accessible layouts
        4.   the 'floor area' options are extensive and allow for a number of different building configurations
        5.   Single sex toilet facilities with urinals for males, plus accessible unisex
-						calculation of showers.
+       5.   calculation of showers
     
-     
   Scenario: Calculate Toilet Facility Result for Museum with capacity of 100 people
       Given Bob The Builder is building toilet facility for Museum with capacity of 100 people
       And Bob wants to calculate Toilet Facility requirement using Toilet Facility Calculator
