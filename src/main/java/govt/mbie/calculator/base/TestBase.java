@@ -114,7 +114,7 @@ public class TestBase {
 			ExtentLogger.getTest().log(Status.SKIP," ************** " + result.getThrowable() + " Test is Skipped ************** ");
 		}
 		
-		ExtentLogger.getTest().log(Status.INFO," **************\" + result.getName() + \" Test Finished *************** ");
+		ExtentLogger.getTest().log(Status.INFO," **************" + result.getName() + " Test Finished *************** ");
 		log.info("**************" + result.getName() + " Test Finished ***************");
 
 	}

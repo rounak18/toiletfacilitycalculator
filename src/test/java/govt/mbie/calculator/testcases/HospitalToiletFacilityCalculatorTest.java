@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import govt.mbie.calculator.base.TestBase;
 import govt.mbie.calculator.workflow.HospitalToiletFacilityWorkFlow;
 
-public class ToiletCalculatorTest extends TestBase {
+public class HospitalToiletFacilityCalculatorTest extends TestBase {
 
 	
 	private String RESULT_GENRATED_MESSAGE_SUCCESS = "Calculated number of toilet facilities";
